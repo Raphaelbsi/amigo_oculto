@@ -1,11 +1,9 @@
 $(document).on 'turbolinks:load', ->
   $('.datepicker').datepicker({
-    selectMonths: true,
-    selectYears: 5,
-    today: 'Today',
+    showMonthAfterYear: true,
+    yearRange: 5,
     clear: 'Clear',
-    close: 'Ok',
-    closeOnSelect: true,
+    autoClose: true,
     format: 'dd/mm/yyyy'
   });
   return

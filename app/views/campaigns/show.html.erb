@@ -16,7 +16,7 @@
                     <label for="title" class="<%= (@campaign.title)? 'active' : '' %>">Título</label>
                   </div>
                   <div class="col s12 l3 input-field">
-                    <%= f.date_field :event_date, class: 'datepicker' %>
+                    <%= f.text_field :event_date, class: 'datepicker' %>
                     <label for="title" class="<%= (@campaign.event_date)? 'active' : '' %>">Data</label>
                   </div>
                   <div class="col s12 l2 input-field">
